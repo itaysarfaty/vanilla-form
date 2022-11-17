@@ -1,15 +1,3 @@
-# 🚀 Welcome to your new awesome project!
+# 🍦 Do you know what the beset JS favor is?
 
-This project has been created using **webpack-cli**, you can now run
-
-```
-npm run build
-```
-
-or
-
-```
-yarn build
-```
-
-to bundle your application
+A simple form I made using typescrip, Web APIs, Webpack, and Node.js.
