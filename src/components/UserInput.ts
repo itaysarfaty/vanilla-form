@@ -48,12 +48,13 @@ export class UserInput extends Component<HTMLFormElement> {
   }
 
   private checkFlavor(flavor: string) {
-    if (flavor !== "vanilla") {
-      this.messageEl.textContent = "WRONG, Guess another flavor!";
+    const bestFlavor = "vanilla";
+    if (flavor !== bestFlavor) {
+      this.messageEl.textContent = "WRONG, guess another flavor!";
       return false;
     }
 
-    this.messageEl.textContent = "CORRECT. Vanilla is the best JS Flavor!";
+    this.messageEl.textContent = `CORRECT! ${bestFlavor} is the best JS Flavor!`;
     return true;
   }
 }
