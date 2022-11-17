@@ -7,7 +7,7 @@
   <body>
     <form id="vanilla-form">
       <div class="input-row">
-        <label for="name">Full name</label>
+        <label for="name">Name</label>
         <input type="text" name="name" id="name" required />
       </div>
       <div class="input-row">
@@ -15,13 +15,30 @@
         <input type="email" name="email" id="email" required />
       </div>
       <div class="input-row">
-        <p>Select your favorite flavor</p>
+        <p>Select the best JS flavor</p>
+        <label for="chocolate">chocolate</label>
+        <input
+          type="radio"
+          name="flavor"
+          id="chocolate"
+          value="chocolate"
+          required
+        />
         <label for="vanilla">Vanilla</label>
         <input
           type="radio"
           name="flavor"
           id="vanilla"
           value="vanilla"
+          required
+        />
+
+        <label for="strawberry">Strawberry</label>
+        <input
+          type="radio"
+          name="flavor"
+          id="strawberry"
+          value="strawberry"
           required
         />
       </div>
