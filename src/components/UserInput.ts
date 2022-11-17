@@ -28,7 +28,7 @@ export class UserInput extends Component<HTMLFormElement> {
       setTimeout(() => {
         this.disable(false);
         this.newGuess(flavor);
-      }, 2000);
+      }, 2500);
     }
   }
 
@@ -43,7 +43,7 @@ export class UserInput extends Component<HTMLFormElement> {
   }
 
   private getFlavor() {
-    const flavor = this.flavorInputEl.value;
+    const flavor = this.flavorInputEl.value.toLowerCase();
     return flavor;
   }
 
