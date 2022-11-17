@@ -5,44 +5,16 @@
     <title>Vanilla Form</title>
   </head>
   <body>
-    <form id="vanilla-form">
-      <div class="input-row">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" required />
-      </div>
-      <div class="input-row">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" required />
-      </div>
-      <div class="input-row">
-        <p>Select the best JS flavor</p>
-        <label for="chocolate">Chocolate</label>
-        <input
-          type="radio"
-          name="flavor"
-          id="chocolate"
-          value="chocolate"
-          required
-        />
-        <label for="vanilla">Vanilla</label>
-        <input
-          type="radio"
-          name="flavor"
-          id="vanilla"
-          value="vanilla"
-          required
-        />
-
-        <label for="strawberry">Strawberry</label>
-        <input
-          type="radio"
-          name="flavor"
-          id="strawberry"
-          value="strawberry"
-          required
-        />
-      </div>
-      <button type="submit">Submit</button>
-    </form>
+    <template id="vanilla-form">
+      <form>
+        <div class="input-row">
+          <label for="text">What's the best JavaScript Flavor?</label>
+          <input type="text" name="text" id="flavor" required />
+        </div>
+        <button type="submit" id="submit-button">Submit</button>
+        <p id="message"></p>
+      </form>
+    </template>
+    <div id="app"></div>
   </body>
 </html>
