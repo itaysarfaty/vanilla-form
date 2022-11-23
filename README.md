@@ -1,3 +1,3 @@
 # 🍦 Do you know what the best JS favor is?
 
-A simple form I made using typescript, Web APIs, Webpack, and Node.js.
+A simple form I made to practice typescript and DOM manipulation.
